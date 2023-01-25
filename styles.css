@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --header-height: 48px;
+    --border-color: grey;
+}
+
+.header {
+    height: var(--header-height);
+    background-color: red;
+}
+
+.main {
+    height: calc(70vh - var(--header-height));
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.card {
+    border: solid 1px var(--border-color);
+}
+
+.unrevealed {
+    background-color: grey;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+.orange {
+    background-color: orange;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
+.aqua {
+    background-color: aqua;
+}
